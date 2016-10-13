@@ -1,6 +1,6 @@
 .wc-container {
   font-size: 14px;
-  font-family: arial, helvetica;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .wc-toolbar {
@@ -72,7 +72,6 @@
 
 
 .wc-scrollable-grid {
-    overflow: auto;
     overflow-x: hidden !important;
     overflow-y: auto !important;
     position: relative;
@@ -106,27 +105,17 @@ table.wc-time-slots {
 .wc-no-height-wrapper{
     position:relative;
   overflow: visible;
-    height: 0px;
+    height: 0;
 }
 
 .wc-time-slot-wrapper {
 /*  top: 3px;*/
 }
-.wc-oddeven-wrapper .wc-full-height-column{
-/*  top: 2px; */
-  /* Modern Browsers */ opacity: 0.4;
-  /* IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  /* IE 5-7 */ filter: alpha(opacity=40);
-  /* Netscape */ -moz-opacity: 0.4;
-  /* Safari 1 */ -khtml-opacity: 0.4;
+.wc-oddeven-wrapper .wc-full-height-column {
+    opacity: 0.4;
 }
 .wc-freebusy-wrapper .wc-freebusy{
-/*  top: 1px;*/
-  /* Modern Browsers */ opacity: 0.4;
-  /* IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  /* IE 5-7 */ filter: alpha(opacity=40);
-  /* Netscape */ -moz-opacity: 0.4;
-  /* Safari 1 */ -khtml-opacity: 0.4;
+    opacity: 0.4;
 }
 
 .wc-time-slots {
@@ -202,11 +191,7 @@ table.wc-time-slots {
 
 .wc-cal-event {
     background-color: #68a1e5;
-  /* Modern Browsers */ opacity: 0.8;
-  /* IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  /* IE 5-7 */ filter: alpha(opacity=80);
-  /* Netscape */ -moz-opacity: 0.8;
-  /* Safari 1 */ -khtml-opacity: 0.8;
+    opacity: 0.8;
     position: absolute;
     text-align: center;
     overflow: hidden;
@@ -264,7 +249,7 @@ table.wc-time-slots {
 /** hourLine */
 
 .wc-hourline {
-  height: 0pt;
+  height: 0;
   border-top: 2px solid #FF7F6E;
   overflow: hidden;
   position: absolute;

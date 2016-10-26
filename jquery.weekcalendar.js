@@ -1,17 +1,10 @@
 /*
  * jQuery.weekCalendar v2.0-dev
- *
- * for support join us at the google group:
- *    - http://groups.google.com/group/jquery-week-calendar
- * have a look to the wiki for documentation:
- *    - http://wiki.github.com/themouette/jquery-week-calendar/
- * something went bad ? report an issue:
- *    - http://github.com/themouette/jquery-week-calendar/issues
- * get the last version on github:
- *    - http://github.com/themouette/jquery-week-calendar
+ * https://github.com/StefanPATRICE/jquery-week-calendar
  *
  * Copyright (c) 2009 Rob Monie
  * Copyright (c) 2010 Julien MUETTON
+ * Copyright (c) 2016 Stefan PATRICE
  * Dual licensed under the MIT and GPL licenses:
  *    http://www.opensource.org/licenses/mit-license.php
  *    http://www.gnu.org/licenses/gpl.html

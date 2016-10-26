@@ -74,7 +74,7 @@
         resizable: function(calEvent, element) {
           return true;
         },
-        eventClick: function(calEvent, element, dayFreeBusyManager, 
+        eventClick: function(calEvent, element, dayFreeBusyManager,
                                                       calendar, clickEvent) {
         },
         eventRender: function(calEvent, element) {
@@ -92,14 +92,14 @@
         },
         eventResize: function(calEvent, element) {
         },
-        eventNew: function(calEvent, element, dayFreeBusyManager, 
+        eventNew: function(calEvent, element, dayFreeBusyManager,
                                                     calendar, mouseupEvent) {
         },
         eventMouseover: function(calEvent, $event) {
         },
         eventMouseout: function(calEvent, $event) {
         },
-        eventDelete: function(calEvent, element, dayFreeBusyManager, 
+        eventDelete: function(calEvent, element, dayFreeBusyManager,
                                                       calendar, clickEvent) {
             calendar.weekCalendar('removeEvent',calEvent.id);
 	},
@@ -1006,7 +1006,7 @@
         renderRow = '<tr class=\"wc-grid-row-events\">';
         renderRow += '<td class=\"wc-grid-timeslot-header\">';
         for (var i = start; i < end; i++) {
-          var bhClass = (options.businessHours.start <= i && options.businessHours.end > i) ? 'ui-state-active wc-business-hours' : 'ui-state-default';
+          var bhClass = (options.businessHours.start <= i && options.businessHours.end > i) ? 'wc-business-hours' : '';
           renderRow += '<div class=\"wc-hour-header ' + bhClass + '\">';
           if (options.use24Hour) {
             renderRow += '<div class=\"wc-time-header-cell\">' + self._24HourForIndex(i) + '</div>';

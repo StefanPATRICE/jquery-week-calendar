@@ -106,7 +106,7 @@ table.wc-time-slots {
 .wc-time-slot-wrapper {
     /*  top: 3px;*/
 }
-.wc-oddeven-wrapper .wc-full-height-column {
+.wc-oddeven-wrapper .wc-full-height-column{
     opacity: 0.4;
 }
 .wc-freebusy-wrapper .wc-freebusy{
@@ -241,7 +241,7 @@ table.wc-time-slots {
 /** hourLine */
 
 .wc-hourline {
-    height: 0pt;
+    height: 0;
     border-top: 2px solid #FF7F6E;
     overflow: hidden;
     position: absolute;
